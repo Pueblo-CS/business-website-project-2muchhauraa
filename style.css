@@ -7,12 +7,22 @@ body {
     margin: 0px;
 }
 
- #header {
+#header .nav > a, 
+
+#header {
     background-color: #638475;
-    color: #17548d;
+    color: #c228c2;
     height: 60px;
  }
 
+
+
+
+
+
+ a:hover {
+
+ }
  .nav > a {
     color: white;
     text-decoration: none;
@@ -20,7 +30,6 @@ body {
 
  #hero {
     font-size: 20px;
-    color: rgb(182, 180, 180);
  }
 
  #hero > h1 {
@@ -29,5 +38,18 @@ body {
 
  #cta {
     background-color: #638475;
-    color: white;
- }  text-decoration: none;
+ }  
+
+ #cta:hover {
+   background-color: white;
+   color:blueviolet
+ }
+
+ #services {
+   background-color:#5ba383 ;
+ }
+
+ .card {
+   background-color: white;
+   width: fit-content;
+ }
